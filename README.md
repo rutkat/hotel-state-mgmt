@@ -14,7 +14,7 @@ This project was bootstrapped with [NextJS](https://github.com/zeit/next.js/).
 
 
 ## Available Scripts
-Install dependencies using `yarn istall`, NOT npm install!
+### Install dependencies using `yarn install`, NOT `npm install`!
 
 In the project directory, you can run:
 
