@@ -4,7 +4,7 @@ This project was bootstrapped with [NextJS](https://github.com/zeit/next.js/).
 ![Hotel Room Options](room-states.gif "Hotel Room Options")
 
 ## Developer Notes
-1. NextJS was chosen to build a single-page javascript app with server-side rendering. As per request.
+1. NextJS was chosen to build a single-page javascript app with server-side rendering. As per request. It also includes yarn for faster installation of dependencies.
 2. Initial room data is provided for props from the room_data.js file.
 3. Components contain their corresponding styles in separate scss files with the help of the @zeit/next-sass plugin.
 4. State management of the user inputs is handled by React's hooks using useState() and useEffects() methods.
@@ -14,7 +14,7 @@ This project was bootstrapped with [NextJS](https://github.com/zeit/next.js/).
 
 
 ## Available Scripts
-Install dependencies using `npm install`.
+Install dependencies using `yarn istall`, NOT npm install!
 
 In the project directory, you can run:
 
