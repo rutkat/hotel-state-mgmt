@@ -1,0 +1,9 @@
+form {
+  margin: 18px;
+}
+button[type='submit'] {
+  margin-top: 12px;
+}
+form, button[type='submit'] {
+  display: block;
+}

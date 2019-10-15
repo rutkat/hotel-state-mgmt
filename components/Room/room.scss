@@ -1,0 +1,48 @@
+$bg-color: #EEE;
+$enabled-color: #FFF;
+
+label {
+  font-weight: 400;
+}
+input {
+  margin: 0 4px 0 0;
+}
+.room {
+  display: inline-block;
+  border: 3px #CCC solid;
+  border-radius: 5px;
+  border-spacing: 0;
+  margin: 2px;
+  width: 100px;
+  height: 84px;
+  &-guests {
+    display: flex;
+    flex-direction: row;
+    margin: 8px 4px;
+  }
+  &-label-header {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 3px 6px;
+    font-weight: bold;
+    background: $bg-color;
+    width: 100%;
+  }
+  &-label {
+    background: #FFF;
+    font-size: 9px;
+    select {
+      margin-top: 4px;
+    }
+  }
+  &.disabled {
+    background: $bg-color;
+    cursor: not-allowed;
+    .room-label-header {
+      font-weight: normal;
+    }
+    .room-label {
+      background: $bg-color;
+    }
+  }
+}
